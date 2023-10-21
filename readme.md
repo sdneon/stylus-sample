@@ -1,10 +1,14 @@
 # Stylus Sample App (Java)
-## _Stylus Pressure Input for Java, corresponding **sample app** for **stylus-jni**_
+## _Stylus Pressure Input for Java, corresponding **sample apps** for **stylus-jni**_
 
-This is my corresponding **sample app** for [stylus-jni](https://github.com/sdneon/stylus-jni) & [library](https://github.com/sdneon/stylus-lib) mods.
+This are my corresponding **sample apps** for [stylus-jni](https://github.com/sdneon/stylus-jni) & [library](https://github.com/sdneon/stylus-lib) mods.
 
+1. **StylusSample**
 It doesn't actually let use draw anything.
-However, just scribble in the JPanel to observe the output stylus events =D
+However, just scribble in the JPanel to observe the output stylus events X)
+2. **StylusDemo**
+This has a drawing canvas.
+It is a modified/reduced version of [org.lecturestudio.stylus's](https://github.com/lectureStudio/stylus) sample app, without the bloat of Google Guice, injects et al. That's 5 dependencies/JARs eliminated (aopalliance-1.0.jar, failureaccess-1.0.1.jar, guava-30.1-jre.jar, guice-5.0.1.jar, javax.inject-1.jar), so it should be easier to play with in your apps =D
 
 ## Use With
 
