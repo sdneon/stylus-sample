@@ -216,7 +216,7 @@ public class AwtCanvasView extends JPanel implements CanvasView {
 		Dimension cursorBestSize = toolkit.getBestCursorSize(32, 32);
 		int cursorSize = cursorBestSize.width;
 		Point hotspot = new Point(cursorSize / 2, cursorSize / 2);
-		Image image = new ImageIcon(getClass().getResource("./cursor.png")).getImage();
+		Image image = new ImageIcon(getClass().getResource("images/cursor.png")).getImage();
 
 		stylusCursor = toolkit.createCustomCursor(image, hotspot, null);
 
